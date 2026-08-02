@@ -1,8 +1,23 @@
 aid: superplastic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/superplastic.png
 name: Superplastic
-description: Superplastic is a company surfaced as a portfolio company of canaan-partners, gv and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Superplastic is a designer-toy and entertainment brand that creates animated synthetic
+  celebrities and collectible vinyl art toys, including the characters Janky, Guggimon, and Staffie,
+  sold through its Shopify-powered online store. Based in Burlington, Vermont, the company blends
+  animation, streetwear-style limited-edition drops, and collectible figures. It is a direct-to-consumer
+  commerce and social-media brand and does not publish a public developer API; this profile captures its
+  web and domain-security posture only.
 url: https://raw.githubusercontent.com/api-evangelist/superplastic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Designer Toys
+- Collectibles
+- Entertainment
+- E-Commerce
+- Animation
+- Consumer Brand
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +46,10 @@ maintainers:
 common:
 - type: Website
   url: https://superplastic.co/
+- type: DomainSecurity
+  url: security/superplastic-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
