@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/superplastic/integrations
+- https://n8n.io/integrations/superplastic/
+- https://composio.dev/toolkits/superplastic
+- https://monid.ai/tools/superplastic
+checked:
+- https://composio.dev/toolkits/superplastic
+- https://monid.ai/tools/superplastic
+- https://n8n.io/integrations/superplastic/
+- https://zapier.com/apps/superplastic/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
